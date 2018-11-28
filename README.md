@@ -4,7 +4,7 @@
 
 ### License & Copyright
 
-The WoW Tools source is licensed under the [MIT](https://gitlab.com/Arctium/WildStar/Tools/blob/master/LICENSE) license.
+The WildStar Tools source is licensed under the [MIT](https://gitlab.com/Arctium/WildStar/Tools/blob/master/LICENSE) license.
 
 ## Building
 

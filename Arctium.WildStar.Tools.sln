@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28218.60
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{042F0459-2248-4107-9736-6EBD8F3637A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataExtractor", "src\DataExtractor\DataExtractor.csproj", "{5844B74D-F167-40C5-9D0B-A5EF287A79D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchiveLib", "src\ArchiveLib\ArchiveLib.csproj", "{269CB194-DF42-4FD8-9CCF-CBB724B4C366}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5844B74D-F167-40C5-9D0B-A5EF287A79D1}.Debug|x64.ActiveCfg = Debug|x64
+		{5844B74D-F167-40C5-9D0B-A5EF287A79D1}.Debug|x64.Build.0 = Debug|x64
+		{5844B74D-F167-40C5-9D0B-A5EF287A79D1}.Release|x64.ActiveCfg = Release|x64
+		{5844B74D-F167-40C5-9D0B-A5EF287A79D1}.Release|x64.Build.0 = Release|x64
+		{269CB194-DF42-4FD8-9CCF-CBB724B4C366}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{269CB194-DF42-4FD8-9CCF-CBB724B4C366}.Debug|x64.Build.0 = Debug|Any CPU
+		{269CB194-DF42-4FD8-9CCF-CBB724B4C366}.Release|x64.ActiveCfg = Release|Any CPU
+		{269CB194-DF42-4FD8-9CCF-CBB724B4C366}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{269CB194-DF42-4FD8-9CCF-CBB724B4C366} = {042F0459-2248-4107-9736-6EBD8F3637A0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C35B989D-D867-4911-BDE6-FC6F4F09F02C}
+	EndGlobalSection
+EndGlobal

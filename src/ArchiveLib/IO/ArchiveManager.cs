@@ -34,7 +34,7 @@ namespace ArchiveLib.IO
         ConcurrentDictionary<byte[], FileEntry> files { get; set; }
         Dictionary<uint, Tuple<SortedDictionary<uint, FolderEntry>, SortedDictionary<uint, FileEntry>>> folders;
 
-        static string baseUrl = "http://wildstar.patcher.ncsoft.com/";
+        static string baseUrl = "http://wildstar.patcher.arctium.io/";
         static string versionUrl = string.Format("{0}version.txt", baseUrl);
         static string version = "";
 
